@@ -1,0 +1,1 @@
+#Může být prázdný – jen signalizuje, že složky jsou "Python balíčky"
