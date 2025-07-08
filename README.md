@@ -60,10 +60,24 @@ Výsledkem je, že proměnná shop_women teď drží objekt, který má přístu
 
 Je to základní kámen pro psaní čistých, udržovatelných a srozumitelných automatizovaných UI testů.
 ----------------------------------------------------------------------------------------
-#GIT
+#GIT - 
+A) pushnuté změny do branche
 
 1) create branch: git branch create_test_home_page 
 2) git add .; nebo git add nazev_souboru
 3) git commit -m "refactoring" // -m je pro psaní zprávy
 4) git fetch //synchronizace se vzdáleným repozitářem
-5) git push origin ""název branche
+5) git push origin název branche
+
+B) Branch mergnout do main
+1) vytvořit PR:
+    a)Ujisti se, že jsi na své pracovní (feature) branchi, kterou chceš sloučit (např. git switch moje-nova-funkce).
+    b) Ujisti se, že jsi pushnul své nejnovější změny na vzdálený repozitář: 
+        git push
+    c) Vytvoř Pull Request
+     gh pr create
+        Tento příkaz tě provede interaktivním procesem:
+        Zeptá se tě na název PR (Title).
+        Zeptá se tě na popis PR (Body). Můžeš otevřít editor, nebo ho nechat prázdný.
+        Nabídne ti cílovou branch (base branch), kam se má PR sloučit (obvykle main nebo develop).
+        Potvrdíš.
