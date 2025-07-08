@@ -81,3 +81,4 @@ B) Branch mergnout do main
         Zeptá se tě na popis PR (Body). Můžeš otevřít editor, nebo ho nechat prázdný.
         Nabídne ti cílovou branch (base branch), kam se má PR sloučit (obvykle main nebo develop).
         Potvrdíš.
+2) Kontrola: Zobrazte log commitů: git log --oneline --graph --all
